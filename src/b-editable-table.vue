@@ -351,11 +351,15 @@ export default Vue.extend({
       let isUpdate = false;
       const objId = id ? id : Object.keys(this.localChanges)[0];
       if (action === "add") {
+        // Stop editing any cells before adding a new row
+        this.tableItems = this.tableItems.map((item: any) => ({...item, isEdit: false}));
         isUpdate = true;
         // Warning: if watcher don't trigger the new row will not update the tableMap properly
         this.tableMap[id] = { id, isEdit, fields: {} };
-        this.tableItems.unshift(data);
+        this.tableItems.push(data);
       } else if (action === "delete") {
+        // Stop editing any cells before adding a new row
+        this.tableItems = this.tableItems.map((item: any) => ({...item, isEdit: false}));
         isUpdate = true;
         delete this.tableMap[id];
         this.tableItems = this.tableItems.filter((item: any) => item.id !== id);
