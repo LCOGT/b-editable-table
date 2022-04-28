@@ -1,6 +1,6 @@
 <template>
   <b-table
-      class="b-editable-table"
+      class="b-custom-class-editable-table"
     v-click-outside="handleClickOut"
     v-bind="{ ...$props, ...$attrs }"
     v-on="handleListeners($listeners)"
@@ -477,7 +477,7 @@ export default Vue.extend({
 .b-editable-table {
   width: unset;
 }
-.b-editable-table >>> td {
+.b-custom-class-editable-table td {
   padding: 0;
 }
 .data-cell {
