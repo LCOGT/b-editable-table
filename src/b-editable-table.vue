@@ -474,10 +474,10 @@ export default Vue.extend({
 </script>
 
 <style scoped>
-.b-editable-table >>> .b-table {
+.b-editable-table {
   width: unset;
 }
-.b-editable-table >>> .b-table td {
+.b-editable-table td {
   padding: 0;
 }
 .data-cell {
