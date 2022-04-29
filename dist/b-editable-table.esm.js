@@ -697,8 +697,8 @@ var __vue_staticRenderFns__ = [];
 
 const __vue_inject_styles__ = function (inject) {
   if (!inject) return;
-  inject("data-v-185e05d8_0", {
-    source: ".bootstrap-vue-editable-table[data-v-185e05d8]{width:unset}table.bootstrap-vue-editable-table td[data-v-185e05d8]{padding:0}.data-cell[data-v-185e05d8]{display:flex;width:100%;height:100%}",
+  inject("data-v-960775f8_0", {
+    source: ".bootstrap-vue-editable-table[data-v-960775f8]{width:unset}.bootstrap-vue-editable-table td[data-v-960775f8]{padding:0}.data-cell[data-v-960775f8]{display:flex;width:100%;height:100%}",
     map: undefined,
     media: undefined
   });
@@ -706,7 +706,7 @@ const __vue_inject_styles__ = function (inject) {
 /* scoped */
 
 
-const __vue_scope_id__ = "data-v-185e05d8";
+const __vue_scope_id__ = "data-v-960775f8";
 /* module identifier */
 
 const __vue_module_identifier__ = undefined;
