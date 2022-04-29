@@ -477,7 +477,7 @@ export default Vue.extend({
 .bootstrap-vue-editable-table {
   width: unset;
 }
-.bootstrap-vue-editable-table td {
+table.b-table.bootstrap-vue-editable-table td {
   padding: 0;
 }
 .data-cell {
