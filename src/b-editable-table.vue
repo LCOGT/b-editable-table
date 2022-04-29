@@ -476,7 +476,7 @@ export default Vue.extend({
 .b-editable-table {
   width: unset;
 }
-.b-editable-table td {
+table.b-editable-table td {
   padding: 0;
 }
 .data-cell {
