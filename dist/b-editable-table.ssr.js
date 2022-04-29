@@ -589,6 +589,7 @@ var __vue_render__ = function __vue_render__() {
       value: _vm.handleClickOut,
       expression: "handleClickOut"
     }],
+    staticClass: "bootstrap-vue-editable-table",
     attrs: {
       "items": _vm.tableItems
     },
@@ -762,8 +763,8 @@ var __vue_staticRenderFns__ = [];
 
 var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-4a543f06_0", {
-    source: ".b-editable-table[data-v-4a543f06]{width:unset}table.b-editable-table td[data-v-4a543f06]{padding:0}.data-cell[data-v-4a543f06]{display:flex;width:100%;height:100%}",
+  inject("data-v-185e05d8_0", {
+    source: ".bootstrap-vue-editable-table[data-v-185e05d8]{width:unset}table.bootstrap-vue-editable-table td[data-v-185e05d8]{padding:0}.data-cell[data-v-185e05d8]{display:flex;width:100%;height:100%}",
     map: undefined,
     media: undefined
   });
@@ -771,10 +772,10 @@ var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
 /* scoped */
 
 
-var __vue_scope_id__ = "data-v-4a543f06";
+var __vue_scope_id__ = "data-v-185e05d8";
 /* module identifier */
 
-var __vue_module_identifier__ = "data-v-4a543f06";
+var __vue_module_identifier__ = "data-v-185e05d8";
 /* functional template */
 
 var __vue_is_functional_template__ = false;
