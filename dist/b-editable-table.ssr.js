@@ -763,8 +763,8 @@ var __vue_staticRenderFns__ = [];
 
 var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-75ac0be2_0", {
-    source: ".bootstrap-vue-editable-table[data-v-75ac0be2]{width:unset}.bootstrap-vue-editable-table[data-v-75ac0be2] td{padding:0}.data-cell[data-v-75ac0be2]{display:flex;width:100%;height:100%}",
+  inject("data-v-522273e4_0", {
+    source: ".bootstrap-vue-editable-table[data-v-522273e4]{width:unset}.bootstrap-vue-editable-table[data-v-522273e4] td{padding:0}.data-cell[data-v-522273e4]{display:flex;width:100%;height:100%}",
     map: undefined,
     media: undefined
   });
@@ -772,10 +772,10 @@ var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
 /* scoped */
 
 
-var __vue_scope_id__ = "data-v-75ac0be2";
+var __vue_scope_id__ = "data-v-522273e4";
 /* module identifier */
 
-var __vue_module_identifier__ = "data-v-75ac0be2";
+var __vue_module_identifier__ = "data-v-522273e4";
 /* functional template */
 
 var __vue_is_functional_template__ = false;
